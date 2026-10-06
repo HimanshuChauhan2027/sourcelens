@@ -1,0 +1,408 @@
+{
+  "ticker": "SRVCABLE",
+  "as_of": "2026-09-23",
+  "document_decisions": [
+    {
+      "source_id": "S01",
+      "disposition": "context",
+      "entity_match": true,
+      "reason": "The named cable manufacturer and Q1 results match the requested company and reporting period. Retain the revenue discrepancy for comparison, but prefer S03's direct company filing for the same quarter. The article's August share price is not a valuation measurement for 23 September 2026."
+    },
+    {
+      "source_id": "S02",
+      "disposition": "use",
+      "entity_match": true,
+      "reason": "The company IR transcript's named management, Bharuch expansion and Q1 FY27 results are consistent with the business and management identified in S03. Use attributed operating explanations, guidance, collection metrics and financing disclosures, preserving the distinction between management statements and verified outcomes."
+    },
+    {
+      "source_id": "S03",
+      "disposition": "use",
+      "entity_match": true,
+      "reason": "The supplied direct company filing explicitly links Sarvottam Cables Ltd, NSE ticker SRVCABLE and the manufacture of power cables, wires and conductors. It supplies consolidated results for the quarter ended 30 June 2026 and is the preferred source for that period's financial figures."
+    },
+    {
+      "source_id": "S04",
+      "disposition": "context",
+      "entity_match": true,
+      "reason": "The legal company name and promoter shareholding subject match Sarvottam Cables Ltd. Its March 2024 report is historical context; its 35% pledge figure must not replace S08's later measurement or be presented as the position on the requested research date."
+    },
+    {
+      "source_id": "S05",
+      "disposition": "exclude",
+      "entity_match": true,
+      "reason": "The ticker and company reference match, but the promotional post offers no reliable independent factual contribution, repeats the revenue figure contradicted by S03 and contains source-embedded instructions. Its target, trading claims and purported consensus are unsupported."
+    },
+    {
+      "source_id": "S06",
+      "disposition": "exclude",
+      "entity_match": false,
+      "reason": "The subject is Sarvottam Cable Network, a local cable TV and broadband operator owned by Suresh Patil. Its business activity and entity identity differ from the listed manufacturer Sarvottam Cables Ltd identified in S03; the municipal penalty cannot be attributed to SRVCABLE."
+    },
+    {
+      "source_id": "S07",
+      "disposition": "use",
+      "entity_match": true,
+      "reason": "The supplied exchange disclosure names Sarvottam Cables Ltd and concerns a material quantified GST demand. Use the disclosed demand and separately attribute management's intended appeal and materiality assessment; the excerpt does not establish that an appeal was filed or resolved."
+    },
+    {
+      "source_id": "S08",
+      "disposition": "use",
+      "entity_match": true,
+      "reason": "The supplied shareholding filing names Sarvottam Cables Ltd and provides the latest supplied ownership and pledge measurements, as of 30 June 2026. Preserve the pledge denominator as promoter holdings and distinguish measurement date from the 15 July publication date."
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "text": "Sarvottam Cables Ltd identifies itself as NSE-listed SRVCABLE, a manufacturer of power cables, wires and conductors; its Q1 FY27 results cover the quarter ended 30 June 2026.",
+      "source_ids": [
+        "S03"
+      ],
+      "support": [
+        {
+          "source_id": "S03",
+          "quote": "**Mumbai, 8 August 2026.** Sarvottam Cables Ltd (NSE: SRVCABLE), a manufacturer of power cables, wires and conductors, today announced results for the quarter ended 30 June 2026."
+        }
+      ],
+      "period": "Identity stated on 8 August 2026; Q1 FY27 ended 30 June 2026.",
+      "kind": "reported_fact"
+    },
+    {
+      "id": "C02",
+      "text": "The company release reported consolidated Q1 FY27 revenue from operations of ₹1,248 crore versus ₹1,058 crore in Q1 FY26, with reported year-on-year growth of 18.0%.",
+      "source_ids": [
+        "S03"
+      ],
+      "support": [
+        {
+          "source_id": "S03",
+          "quote": "**Consolidated highlights (Q1 FY27 vs Q1 FY26)**"
+        },
+        {
+          "source_id": "S03",
+          "quote": "| ₹ crore | Q1 FY27 | Q1 FY26 | YoY |"
+        },
+        {
+          "source_id": "S03",
+          "quote": "| Revenue from operations | 1,248 | 1,058 | +18.0% |"
+        }
+      ],
+      "period": "Q1 FY27 versus Q1 FY26; current quarter ended 30 June 2026.",
+      "kind": "reported_fact"
+    },
+    {
+      "id": "C03",
+      "text": "Consolidated Q1 FY27 EBITDA was ₹140 crore versus ₹136 crore a year earlier, while the EBITDA margin fell from 12.9% to 11.2%, a reported contraction of 170 basis points. Profit after tax was ₹82 crore versus ₹77 crore.",
+      "source_ids": [
+        "S03"
+      ],
+      "support": [
+        {
+          "source_id": "S03",
+          "quote": "**Consolidated highlights (Q1 FY27 vs Q1 FY26)**"
+        },
+        {
+          "source_id": "S03",
+          "quote": "| ₹ crore | Q1 FY27 | Q1 FY26 | YoY |"
+        },
+        {
+          "source_id": "S03",
+          "quote": "| EBITDA | 140 | 136 | +2.6% |"
+        },
+        {
+          "source_id": "S03",
+          "quote": "| EBITDA margin | 11.2% | 12.9% | −170 bps |"
+        },
+        {
+          "source_id": "S03",
+          "quote": "| Profit after tax | 82 | 77 | +5.9% |"
+        }
+      ],
+      "period": "Q1 FY27 versus Q1 FY26; current quarter ended 30 June 2026.",
+      "kind": "reported_fact"
+    },
+    {
+      "id": "C04",
+      "text": "The company reported an order book of ₹3,900 crore as of 30 June 2026, compared with ₹3,150 crore a year earlier.",
+      "source_ids": [
+        "S03"
+      ],
+      "support": [
+        {
+          "source_id": "S03",
+          "quote": "- Order book stood at ₹3,900 crore as of 30 June 2026, up from ₹3,150 crore a year ago."
+        }
+      ],
+      "period": "30 June 2026 versus a year earlier.",
+      "kind": "reported_fact"
+    },
+    {
+      "id": "C05",
+      "text": "Exports contributed 21% of Q1 FY27 revenue, compared with 16% in Q1 FY26.",
+      "source_ids": [
+        "S03"
+      ],
+      "support": [
+        {
+          "source_id": "S03",
+          "quote": "- Exports contributed 21% of revenue (Q1 FY26: 16%)."
+        }
+      ],
+      "period": "Q1 FY27 versus Q1 FY26.",
+      "kind": "reported_fact"
+    },
+    {
+      "id": "C06",
+      "text": "Management maintained full-year FY27 revenue growth guidance of 15% to 17% in the August earnings call.",
+      "source_ids": [
+        "S02"
+      ],
+      "support": [
+        {
+          "source_id": "S02",
+          "quote": "For the full year FY27 we are maintaining our revenue growth guidance of 15 to 17 percent."
+        }
+      ],
+      "period": "FY27 guidance stated in the 11 August 2026 call.",
+      "kind": "management_expectation"
+    },
+    {
+      "id": "C07",
+      "text": "Management said data-centre cables accounted for about 9% of domestic revenue and thought that proportion could double in two years.",
+      "source_ids": [
+        "S02"
+      ],
+      "support": [
+        {
+          "source_id": "S02",
+          "quote": "Data-centre cables are now about 9 percent of our domestic revenue, and we think that can double in two years."
+        }
+      ],
+      "period": "Baseline described in the 11 August 2026 call; expectation over the following two years.",
+      "kind": "management_expectation"
+    },
+    {
+      "id": "C08",
+      "text": "The company targeted commercial production at the Bharuch plant in Q3 FY27, with the project expected to add about 30% to cable capacity. The subsequent call anticipated Bharuch's contribution from the second half of FY27; these statements describe expected timing and capacity, not completed commissioning or a corresponding revenue increase.",
+      "source_ids": [
+        "S03",
+        "S02"
+      ],
+      "support": [
+        {
+          "source_id": "S03",
+          "quote": "- The new Bharuch (Gujarat) plant, adding about 30% to cable capacity, is on track to begin commercial production in Q3 FY27."
+        },
+        {
+          "source_id": "S02",
+          "quote": "For the full year FY27 we are maintaining our revenue growth guidance of 15 to 17 percent. Bharuch will contribute from the second half."
+        }
+      ],
+      "period": "Q3 FY27 commercial-production target and second-half FY27 contribution expectation, stated in August 2026.",
+      "kind": "management_expectation"
+    },
+    {
+      "id": "C09",
+      "text": "Management attributed margin pressure mainly to copper costs, said about two-thirds of contracts had price-variation clauses resetting with a lag of one to two quarters, and expected to pass higher copper costs to customers over the next two quarters.",
+      "source_ids": [
+        "S02",
+        "S03"
+      ],
+      "support": [
+        {
+          "source_id": "S02",
+          "quote": "**Anil Deshpande (MD):** Mostly copper. About two-thirds of our contracts have price-variation clauses, but they reset with a lag of one to two quarters. We are not seeing irrational pricing from competitors."
+        },
+        {
+          "source_id": "S03",
+          "quote": "Margins were affected by a sharp rise in copper prices during the quarter, which we expect to pass on to customers over the next two quarters."
+        }
+      ],
+      "period": "Explanation of Q1 FY27 margins; expected pass-through over the next two quarters as stated in August 2026.",
+      "kind": "management_expectation"
+    },
+    {
+      "id": "C10",
+      "text": "The CFO reported that receivable days increased from 78 to 96 over the preceding year, attributed this mainly to slower payments from two large state utility customers, and said the company had not seen defaults.",
+      "source_ids": [
+        "S02"
+      ],
+      "support": [
+        {
+          "source_id": "S02",
+          "quote": "**Meera Iyer (CFO):** Yes, receivable days increased from 78 to 96 over the last year. That is mainly two large state utility customers, where payments are slower. We are monitoring this closely and have not seen any defaults."
+        }
+      ],
+      "period": "Change over the preceding year, reported in the 11 August 2026 call; subsequent collections are not supplied.",
+      "kind": "reported_fact"
+    },
+    {
+      "id": "C11",
+      "text": "The CFO stated that total Bharuch capex was ₹620 crore, about 70% had already been spent, financing came mainly from internal accruals and some term debt, and net debt to equity was 0.35 times.",
+      "source_ids": [
+        "S02"
+      ],
+      "support": [
+        {
+          "source_id": "S02",
+          "quote": "**Meera Iyer (CFO):** Bharuch capex is ₹620 crore in total, about 70 percent already spent. It is funded mainly through internal accruals and some term debt. Net debt to equity is 0.35 times."
+        }
+      ],
+      "period": "Reported in the 11 August 2026 call; exact underlying measurement dates are not specified in the excerpt.",
+      "kind": "reported_fact"
+    },
+    {
+      "id": "C12",
+      "text": "The 2 September 2026 company disclosure reported receipt of a GST demand of ₹46.3 crore, including interest and penalty, relating to input tax credits claimed for FY2020-21 and FY2021-22.",
+      "source_ids": [
+        "S07"
+      ],
+      "support": [
+        {
+          "source_id": "S07",
+          "quote": "Sarvottam Cables Ltd hereby informs that it has received an order from the office of the Joint Commissioner, CGST, Mumbai, raising a demand of **₹46.3 crore** (including interest and penalty) relating to input tax credit claimed for FY2020-21 and FY2021-22."
+        }
+      ],
+      "period": "Disclosed 2 September 2026; underlying tax periods FY2020-21 and FY2021-22.",
+      "kind": "reported_fact"
+    },
+    {
+      "id": "C13",
+      "text": "The company said it believed it had a strong case on legal advice, intended to appeal the GST demand and did not expect a material financial or operational impact. These are the company's stated intention and assessment; the disclosure does not establish an appeal filing or a resolved outcome.",
+      "source_ids": [
+        "S07"
+      ],
+      "support": [
+        {
+          "source_id": "S07",
+          "quote": "The Company believes it has a strong case on merits, based on legal advice, and intends to file an appeal before the appropriate authority. The Company does not expect any material impact on its financial position or operations."
+        }
+      ],
+      "period": "Company position in the disclosure published 2 September 2026.",
+      "kind": "management_expectation"
+    },
+    {
+      "id": "C14",
+      "text": "Promoters and the promoter group held 58.2% of the company's shares in June 2026, unchanged from March 2026 and compared with 58.4% in June 2025.",
+      "source_ids": [
+        "S08"
+      ],
+      "support": [
+        {
+          "source_id": "S08",
+          "quote": "# Sarvottam Cables Ltd: shareholding pattern as of 30 June 2026"
+        },
+        {
+          "source_id": "S08",
+          "quote": "| Category | Jun 2026 | Mar 2026 | Jun 2025 |"
+        },
+        {
+          "source_id": "S08",
+          "quote": "| Promoters & promoter group | 58.2% | 58.2% | 58.4% |"
+        }
+      ],
+      "period": "30 June 2026, with March 2026 and June 2025 comparatives.",
+      "kind": "reported_fact"
+    },
+    {
+      "id": "C15",
+      "text": "The latest supplied pledge measurement was 4.1% of promoter holdings as of 30 June 2026, compared with 6.0% in March 2026 and 11.5% in June 2025. The denominator is promoter holdings, not all company shares.",
+      "source_ids": [
+        "S08"
+      ],
+      "support": [
+        {
+          "source_id": "S08",
+          "quote": "# Sarvottam Cables Ltd: shareholding pattern as of 30 June 2026"
+        },
+        {
+          "source_id": "S08",
+          "quote": "| Category | Jun 2026 | Mar 2026 | Jun 2025 |"
+        },
+        {
+          "source_id": "S08",
+          "quote": "| Of which pledged (as % of promoter holding) | 4.1% | 6.0% | 11.5% |"
+        }
+      ],
+      "period": "30 June 2026, with March 2026 and June 2025 comparatives; not a measurement on 23 September 2026.",
+      "kind": "reported_fact"
+    }
+  ],
+  "conflicts": [
+    {
+      "id": "X01",
+      "claim": "For the same April–June 2026 quarter, S01 reports revenue of ₹1,428 crore and 35% year-on-year growth, whereas S03 reports consolidated revenue of ₹1,248 crore and 18.0% growth.",
+      "source_ids": [
+        "S01",
+        "S03"
+      ],
+      "resolution": "Use ₹1,248 crore and the reported 18.0% growth from S03, the relevant direct company filing for Q1 FY27. S01's later publication date does not outweigh that primary evidence. Retain ₹1,428 crore and 35% as a conflicting secondary report; the pack does not explain the cause or provide a reconciled alternative reporting basis.",
+      "preferred_source_ids": [
+        "S03"
+      ]
+    },
+    {
+      "id": "X02",
+      "claim": "S04's March 2024 article reports 35% of promoter holdings pledged, while S08 measures 4.1% as of 30 June 2026.",
+      "source_ids": [
+        "S04",
+        "S08"
+      ],
+      "resolution": "These describe different periods and need not be contradictory historical observations. Use S08's 4.1% of promoter holdings as the latest supplied measurement, supported by its dated primary shareholding table, and retain the older 35% report only as historical context. Neither source establishes the pledge level on 23 September 2026.",
+      "preferred_source_ids": [
+        "S08"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "question": "What were promoter ownership and pledged holdings on 23 September 2026? The latest supplied measurement is 30 June 2026.",
+      "source_ids": [
+        "S08"
+      ]
+    },
+    {
+      "question": "Had an appeal against the ₹46.3 crore GST demand actually been filed, admitted, stayed or resolved by the research date, and what payment, deposit or accounting provision was required? S07 states an intention to appeal and the company's assessment, without supplying those outcomes.",
+      "source_ids": [
+        "S07"
+      ]
+    },
+    {
+      "question": "Did collections from the two state utility customers improve after the earnings call, and what do receivable ageing, operating cash flow and free cash flow show about cash conversion? The supplied increase from 78 to 96 receivable days and management's no-default statement do not settle subsequent cash collection.",
+      "source_ids": [
+        "S02"
+      ]
+    },
+    {
+      "question": "What funding, liquidity and debt-service commitments remain for Bharuch, including the timing of unspent capex and term-debt repayments? The capex progress and 0.35-times net debt-to-equity ratio alone do not establish funding adequacy.",
+      "source_ids": [
+        "S02"
+      ]
+    },
+    {
+      "question": "Was the Bharuch schedule or budget updated after August, and what utilisation, sales and profit contribution will the added capacity achieve? The pack supplies management's Q3 FY27 production target and second-half contribution expectation, without realised project outcomes.",
+      "source_ids": [
+        "S02",
+        "S03"
+      ]
+    },
+    {
+      "question": "Did copper cost recovery occur on the expected timetable, and did margins recover after Q1 FY27? The contract-reset explanation and expected pass-through are not evidence of subsequent realised recovery.",
+      "source_ids": [
+        "S02",
+        "S03"
+      ]
+    },
+    {
+      "question": "What operating results or guidance updates after the August disclosures establish progress toward FY27 growth guidance and the two-year data-centre expectation?",
+      "source_ids": [
+        "S02",
+        "S03"
+      ]
+    },
+    {
+      "question": "What is SRVCABLE's valuation as of 23 September 2026, supported by a contemporaneous share price, share count and suitable earnings and cash-flow measures? No current valuation is established by the pack.",
+      "source_ids": []
+    }
+  ]
+}

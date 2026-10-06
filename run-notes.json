@@ -1,0 +1,8 @@
+{
+  "ui-20261006T155651Z-930ba6": "Do not submit this development sample: content review found an unsupported growth comparison and blurred planned capacity.",
+  "v4-groq-qwen-02": "Development sample under an earlier validator; coverage is limited and question types needed improvement.",
+  "ui-20261006T171614Z-00b918": "Development only: API completed, but review found missing official revenue figures, unqualified low/minimal assessments and missing GST expectation passage. Not a submission candidate.",
+  "v4-openrouter-04": "Development only: completed API run, but source review found wording/support issues. See CONTENT_REVIEW.json. Not selected for submission.",
+  "ui-20261006T173737Z-9b0a4e": "Groq 20B: duplicate margin sentence persisted through two repairs; stopped without final report.",
+  "ui-20261006T174251Z-b67d76": "Groq 20B, provider-21: four stages accepted; final writing failed context-only evidence and forecast classification checks after bounded repairs. No final report accepted."
+}

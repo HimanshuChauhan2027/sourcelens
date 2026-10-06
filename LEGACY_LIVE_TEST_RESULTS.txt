@@ -1,0 +1,21 @@
+SourceLens — LIVE TEST RESULTS — 6 October 2026
+
+live-groq-v3-01
+  Original GPT-OSS-120B profile: provider returned finish_reason=length; partial output was not accepted.
+
+live-groq-v3-02
+  Qwen 3.8 with reasoning disabled: evidence rejected because C02 did not quote S02 exactly. Raw response preserved.
+
+live-groq-v3-03
+  GPT-OSS-120B with low reasoning: evidence rejected because C08 did not quote S02 exactly. Raw response preserved.
+
+ui-20261006T145352Z-4834ca
+  Browser-initiated Qwen v1: HTTP 429; no completed report.
+
+live-groq-v1-05
+  Qwen v1 with smaller 2500-token output ceiling: HTTP 429; no completed report.
+
+All attempts used the owner-authorized Groq key. No key is included. Tiny diagnostic calls additionally confirmed that a request with an explicit application User-Agent could complete, and one full-size diagnostic hit an input-token rate limit. Diagnostics do not count as completed workflow runs. No OpenRouter inference was performed.
+
+Checks: 25 Node engine/adapter tests + 6 Python UI backend tests passed.
+Both UIs were opened in a browser, and a real generation was initiated from each; both displayed failure without replacing the saved report. Exact Markdown export and server key-status handling were checked. Tests used Python 3.14.7 and Node 26.8.1; minimum-version compatibility was not separately tested.

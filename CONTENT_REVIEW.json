@@ -1,0 +1,23 @@
+{
+  "v4-openrouter-04": {
+    "status": "not selected",
+    "reviewer": "AI assistant source comparison; not owner/human sign-off",
+    "issues": [
+      "C1 adds end-market detail without the passage containing that detail.",
+      "C3 cites a table and order-book paragraph for a copper-cost explanation found in another passage.",
+      "C4 states future plant capacity with will and insufficient management attribution.",
+      "C6 calls leverage low without source support and omits the pledge denominator.",
+      "The brief does not explain the revenue discrepancy."
+    ]
+  },
+  "ui-20261006T174251Z-b67d76": {
+    "reviewer": "AI review, not owner sign-off",
+    "status": "failed; no accepted final report",
+    "findings": [
+      "Final response cited a context-only news passage without primary evidence for a financial assertion.",
+      "Future plant timing/capacity was classified as a reported fact.",
+      "Earlier attempts used an uncited numeric value or a reference absent from the accepted ledger."
+    ],
+    "selected": false
+  }
+}

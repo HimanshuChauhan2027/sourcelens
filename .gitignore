@@ -1,0 +1,11 @@
+.env
+.env.*
+!.env.example
+node_modules/
+.DS_Store
+*.tmp
+coverage/
+tests/.tmp-*/
+
+.ui-uploads/
+__pycache__/

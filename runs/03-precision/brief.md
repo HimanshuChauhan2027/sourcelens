@@ -1,0 +1,39 @@
+# Sarvottam Cables (SRVCABLE)
+Research date: 2026-09-23
+
+## Snapshot
+
+Sarvottam Cables makes power cables, wires and conductors. Its latest supplied results cover Q1 FY27, ended 30 June 2026, and were published on 8 August 2026. [S03]
+Consolidated revenue rose 18.0% to ₹1,248 crore from ₹1,058 crore a year earlier; profit after tax was ₹82 crore versus ₹77 crore. [S03]
+EBITDA, an operating profitability measure, rose from ₹136 crore to ₹140 crore year on year; its margin fell from 12.9% to 11.2%. [S03]
+The latest supplied ownership data, measured 30 June and published 15 July 2026, show promoters held 58.2% of shares; 4.1% of promoter holdings were pledged. [S08]
+
+## Bull case
+
+- The order book reached ₹3,900 crore at 30 June 2026, versus ₹3,150 crore a year earlier. Exports contributed 21% of Q1 FY27 revenue, versus 16% in Q1 FY26. [S03]
+- In August, management maintained 15–17% FY27 revenue growth guidance and said data-centre cables were about 9% of domestic revenue, adding: “we think that can double in two years.” [S02]
+- Management expects Bharuch to add about 30% to cable capacity, targeting Q3 FY27 commercial production and contribution from FY27’s second half. These remain expectations. [S03][S02]
+
+## Bear case
+
+- Management blamed copper costs for margin pressure. About two-thirds of contracts reset prices with a one-to-two-quarter lag; management expected higher costs to pass through over the next two quarters. [S02][S03]
+- The CFO said receivable days rose from 78 to 96 over the preceding year, mainly because two state utilities paid more slowly; she reported no defaults. [S02]
+- In August, the CFO reported ₹620 crore total Bharuch capex, about 70% spent, funded mainly from internal accruals and some term debt; net debt to equity was 0.35 times. Underlying measurement dates were unspecified. [S02]
+- The 2 September disclosure reported a ₹46.3 crore GST demand, including interest and penalty, concerning FY2020-21 and FY2021-22 input tax credits. Management intended to appeal and expected no material financial or operational impact; an appeal filing or resolution is not established. [S07]
+
+## Open questions
+
+- Why does the secondary report give ₹1,428 crore revenue and 35% Q1 growth, against the preferred company filing’s ₹1,248 crore and 18.0%? The discrepancy remains unexplained. [S01][S03]
+- Have the June promoter ownership and pledge figures been updated? [S08]
+- Did collections and copper cost recovery improve after August, and what do operating and free cash flow show? [S02][S03]
+- Has Bharuch’s schedule or budget changed; what funding and debt repayments remain, and what utilisation and results support growth expectations? [S02][S03]
+- Has the GST appeal been filed or resolved, and what payment, deposit or provision is required? [S07]
+- Not supplied in the pack: valuation as of 23 September 2026, including a contemporaneous share price, share count and suitable earnings/cash-flow measures.
+
+## Sources
+
+- [S01] `businessdaily_2026-08-09.md` — published 2026-08-09 — [supplied URL](https://businessdaily.example/markets/sarvottam-cables-q1-results)
+- [S02] `ir_concall_2026-08-11.md` — published 2026-08-11 — [supplied URL](https://ir.sarvottamcables.example/transcripts/q1fy27.pdf)
+- [S03] `ir_press_release_2026-08-08.md` — published 2026-08-08 — [supplied URL](https://ir.sarvottamcables.example/press/q1fy27)
+- [S07] `nse_announcement_2026-09-02.md` — published 2026-09-02 — [supplied URL](https://nse.example/announcements/SRVCABLE/2026-09-02)
+- [S08] `nse_shareholding_2026-07-15.md` — published 2026-07-15 — [supplied URL](https://nse.example/shareholding/SRVCABLE/2026-06)

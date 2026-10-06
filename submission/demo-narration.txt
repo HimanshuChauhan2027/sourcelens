@@ -1,0 +1,23 @@
+1. Evidence before prose
+SourceLens collects evidence before writing the company brief. The supplied pack mixes official results, management forecasts, conflicting news, and irrelevant material. The application organizes those sources into a ledger, then produces a short report whose supporting passages and source decisions remain open for inspection.
+
+2. Build an evidence ledger
+Here is the saved version-three assessment example for Sarvottam Cables. It uses eight supplied documents and the September twenty-third research cutoff. This is a captured model-session run. The report contains a snapshot, bull case, bear case, open questions, and a source registry.
+
+3. Inspect the scope of a claim
+The design decision I am proud of is restricting the writer to selected evidence. In version four, it can cite only passages admitted to the ledger. The evidence view makes scope visible: four point one percent of promoter holdings is a different claim from four point one percent of all shares.
+
+4. Handle disagreement explicitly
+The source decisions keep disagreement and relevance separate. The issuer's revenue figure is preferred, while the conflicting article remains context. Old pledge news is dated, and the unrelated cable business is excluded. A reviewer can inspect those decisions and the supplied passages directly, instead of treating every document as equally relevant.
+
+5. Generation is a separate operation
+The latest free Groq test reached the final writing stage but failed evidence and forecast-classification checks after bounded repairs. No final report was accepted from that attempt. The interface preserves the failure clearly. This demonstration uses the saved example; fresh generation on the final version remains experimental.
+
+6. Exact quotations are not proof
+One limitation follows directly from the evidence-first design: a useful fact missed by the ledger may never reach the writer. Exact quotations also do not prove correct interpretation. The checks establish structure and reference consistency, while the reader still needs to examine qualifications, denominators, and missing context.
+
+7. Retain successes and failures
+The history retains three original changed-design experiments and later API attempts. Their prompts, responses, and source records are kept separately. This makes it possible to compare the actual approaches and see where they failed. Reopening a saved report is clearly distinguished from generating a new one.
+
+8. Read the brief with its trail
+The final package includes the unedited Markdown brief, evidence records, source decisions, experiment notes, and setup instructions. Saved viewing needs Python and no API key. SourceLens makes the evidence selection inspectable, while leaving its coverage limits and the current free-generation limitation visible to the reviewer.

@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "checks": [
+    "Response schema and ticker/date match",
+    "Five required sections in order",
+    "All citations reference eligible inputs",
+    "Sources registry matches body citations",
+    "Brief does not cite an excluded document",
+    "Snapshot has 3–4 prose lines",
+    "Content lines contain citations or explicit missing-data labels",
+    "Source filenames, dates and supplied URLs retained",
+    "Accepted evidence quotations match input text exactly"
+  ],
+  "warnings": [],
+  "word_count": 511,
+  "limitation": "Mechanical checks verify structure, references and, in v3, quote provenance. They do not establish source authenticity, prove semantic entailment, or guarantee prompt-injection resistance. Human review is still needed."
+}

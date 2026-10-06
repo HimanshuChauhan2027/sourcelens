@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "application": "SourceLens",
+  "run_id": "03-precision",
+  "ticker": "SRVCABLE",
+  "as_of": "2026-09-23",
+  "version": "v3",
+  "mode": "file-handoff",
+  "created_at": "2026-10-06T07:49:48.423Z",
+  "status": "completed",
+  "model": {
+    "identifier": "GPT-6 Astra Pro (ChatGPT session; exact backend snapshot/settings not exposed)",
+    "transport": "file-handoff",
+    "identity_source": "operator-supplied",
+    "settings": {
+      "snapshot": null,
+      "sampling": null,
+      "note": "Manual ChatGPT response capture. Exact serving snapshot and sampling settings are not exposed; model label is operator-supplied."
+    }
+  },
+  "inputs": {
+    "snapshot_file": "inputs/sources.json",
+    "snapshot_sha256": "742999f2f729db9a6321e88065d526f714867fcd35d69cd8fa7d3dd0a9f9be7a",
+    "sources": [
+      {
+        "source_id": "S01",
+        "filename": "businessdaily_2026-08-09.md",
+        "sha256": "8278619944f770490194b470c89c50283820c6abbb1b75872b240d6fb17dfdaf",
+        "eligible": true
+      },
+      {
+        "source_id": "S02",
+        "filename": "ir_concall_2026-08-11.md",
+        "sha256": "40c744245b48e7807462116ad1f49c2131bcdd0e97306a9f726b16a1d6b250ba",
+        "eligible": true
+      },
+      {
+        "source_id": "S03",
+        "filename": "ir_press_release_2026-08-08.md",
+        "sha256": "7a3ddafe40703aa025ed0c5e91f308a2751d99866d669cabb9151929bb8228f4",
+        "eligible": true
+      },
+      {
+        "source_id": "S04",
+        "filename": "marketwatchindia_2024-03-18.md",
+        "sha256": "d5f7b3174de80ae62db49bf70592b1161d982999fcf2f0ef92db8fdc82674f07",
+        "eligible": true
+      },
+      {
+        "source_id": "S05",
+        "filename": "multibaggeralerts_2026-08-12.md",
+        "sha256": "041368bf32b3758c0b4c2f2662036759ab789c833ca701ff3607ffd73629e1bd",
+        "eligible": true
+      },
+      {
+        "source_id": "S06",
+        "filename": "nagpurcitytimes_2026-08-20.md",
+        "sha256": "83ee54ae56b8d0d21cccd3dcbface1b333fb687071898d5da034a02da95d5fe2",
+        "eligible": true
+      },
+      {
+        "source_id": "S07",
+        "filename": "nse_announcement_2026-09-02.md",
+        "sha256": "9ebee20362a4fa7e45706fbe3a5018062bb2befc2fa43708fb93de0483f70c13",
+        "eligible": true
+      },
+      {
+        "source_id": "S08",
+        "filename": "nse_shareholding_2026-07-15.md",
+        "sha256": "95513aaf420d46fef490c5e1c9d264f679790d7b71dbb7e1faf870f2e55f0a28",
+        "eligible": true
+      }
+    ]
+  },
+  "stages": [
+    {
+      "number": 1,
+      "name": "evidence",
+      "prompt_file": "prompts/v3-evidence.md",
+      "prompt_sha256": "7c0a64b0c4180a74d252639f1308520706249266010d994796ec094653d6e873",
+      "status": "accepted",
+      "request_file": "request-01.json",
+      "request_sha256": "9f5af3a54ba5c1ebc882aeda3c67614a916084aa22beeb8fc578c01d00a491e1",
+      "attempts": [
+        {
+          "response_file": "responses/01-evidence-attempt-01.json",
+          "response_sha256": "6d80f0db14f84d5b37c7e5f1444d0cb92fcf3c16a9db5bb5e5089f2a4e047412",
+          "status": "accepted",
+          "at": "2026-10-06T07:52:54.080Z"
+        }
+      ],
+      "response_file": "responses/01-evidence-attempt-01.json",
+      "response_sha256": "6d80f0db14f84d5b37c7e5f1444d0cb92fcf3c16a9db5bb5e5089f2a4e047412",
+      "accepted_at": "2026-10-06T07:52:54.081Z",
+      "usage": null,
+      "latency_ms": null,
+      "provider_response_file": null,
+      "provider_response_sha256": null
+    },
+    {
+      "number": 2,
+      "name": "writer",
+      "prompt_file": "prompts/v3-writer.md",
+      "prompt_sha256": "c249d73bde7f5f56225b77291ad5d35343634b06b7df01722bdc95d02c020720",
+      "status": "accepted",
+      "request_file": "request-02.json",
+      "request_sha256": "ad92390982d58840eaf6e412ee8bcc0081a32766a02b60262353ec72aeec1131",
+      "attempts": [
+        {
+          "response_file": "responses/02-writer-attempt-01.json",
+          "response_sha256": "255a2433d8a4c9d9bb455a0259cbc53e6c4509711dca0746023bac33bba006e2",
+          "status": "accepted",
+          "at": "2026-10-06T07:55:25.621Z"
+        }
+      ],
+      "response_file": "responses/02-writer-attempt-01.json",
+      "response_sha256": "255a2433d8a4c9d9bb455a0259cbc53e6c4509711dca0746023bac33bba006e2",
+      "accepted_at": "2026-10-06T07:55:25.625Z",
+      "usage": null,
+      "latency_ms": null,
+      "provider_response_file": null,
+      "provider_response_sha256": null
+    }
+  ],
+  "completed_at": "2026-10-06T07:55:25.625Z",
+  "outputs": [
+    {
+      "file": "brief.md",
+      "sha256": "2c49cb5aa8d88b5b9b3e4a761d570b895a3d0216a8e3573bff62cf67a8c000c4"
+    },
+    {
+      "file": "validation.json",
+      "sha256": "ebaa6ffb3a475ec89f3a9d6c5b9d8242712b854313e72739598d5365dee8062a"
+    },
+    {
+      "file": "report.html",
+      "sha256": "5a297f7a194324e5df5d493887ad3cdcd290627382209ed9af5be94a50690b92"
+    },
+    {
+      "file": "evidence.json",
+      "sha256": "6d80f0db14f84d5b37c7e5f1444d0cb92fcf3c16a9db5bb5e5089f2a4e047412"
+    }
+  ]
+}
